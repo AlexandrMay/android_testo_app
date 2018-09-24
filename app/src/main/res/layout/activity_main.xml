@@ -83,4 +83,29 @@
         app:layout_constraintVertical_bias="0.191"
         app:srcCompat="@drawable/artboard_3" />
 
+    <ImageView
+        android:id="@+id/animationFirst"
+        android:layout_width="112dp"
+        android:layout_height="137dp"
+        android:onClick="animation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/myImage"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:srcCompat="@drawable/artboard_3" />
+
+    <ImageView
+        android:id="@+id/animationSecond"
+        android:layout_width="112dp"
+        android:layout_height="137dp"
+        android:alpha="0"
+        android:onClick="animation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/myImage"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:srcCompat="@drawable/artboard_4" />
+
 </android.support.constraint.ConstraintLayout>

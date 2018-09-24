@@ -10,6 +10,19 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public void animation(View view){
+
+        ImageView firstImage = findViewById(R.id.animationFirst);
+
+        ImageView secondImage = findViewById(R.id.animationSecond);
+
+        firstImage.animate().alpha(0f).setDuration(2000);
+
+        secondImage.animate().alpha(1f).setDuration(4000);
+
+
+    }
+
 
     public void clickButton(View view){
 
