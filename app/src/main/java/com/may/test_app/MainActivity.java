@@ -16,9 +16,14 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView secondImage = findViewById(R.id.animationSecond);
 
-        firstImage.animate().alpha(0f).setDuration(2000);
+        //first type of animation (with alpha)
 
-        secondImage.animate().alpha(1f).setDuration(4000);
+//        firstImage.animate().alpha(0f).setDuration(2000);
+//
+//        secondImage.animate().alpha(1f).setDuration(4000);
+
+        //second type
+        firstImage.animate().translationXBy(-1000f).setDuration(2000);
 
 
     }
